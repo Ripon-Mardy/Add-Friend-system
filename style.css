@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* === end defult css ===  */
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+.card
+{
+    width: 380px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.card img
+{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.card h1
+{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+.card h5
+{
+    font-size: 22px;
+    color: brown;
+    margin: 17px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.btn-container button
+{
+    padding: 13px 25px;
+    background-color: rgb(49, 49, 207);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    transition: all .1s ease-in-out;
+}
+.btn-container button:hover
+{
+    background-color: rgb(4, 4, 158);
+}
+.card #remove
+{
+    background-color: #dadada;
+    color: #111;
+    transition: all .1s ease-in-out;
+}
+.card #remove:hover
+{
+    background-color: #a8a6a6;
+}
